@@ -1,0 +1,10 @@
+Package: CaseyKelp
+Title: Plotting Functions for glmnet
+Description: Provides plotting functionality based on ggplot2 for glmnet objects.
+Version: 0.1
+License: file LICENSE
+Author: yoni.ben-meshulam
+Maintainer: <yoni@opower.com>
+Depends:
+    roxygen2,ggplot2
+Collate:
