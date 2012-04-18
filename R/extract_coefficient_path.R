@@ -12,7 +12,6 @@ extract_coefficient_path <- function(cvg) {
   coef_path$dev.ratio <- cvg[['glmnet.fit']][['dev.ratio']]
   coef_path$nzero <- cvg[['nzero']]
 
-  print(row.names(cvg[['glmnet.fit']][['beta']]))
   coef_path_long <- melt.data.frame(coef_path, measure.vars = c(row.names(cvg[['glmnet.fit']][['beta']]), 'Intercept'))
   names(coef_path_long)[(length(coef_path_long)-1):length(coef_path_long)] <- c('coefficient_name', 'coefficient_value')
   coef_path_long <- coef_path_long[order(coef_path_long$lambda, decreasing=TRUE), ]

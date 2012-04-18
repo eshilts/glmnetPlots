@@ -7,7 +7,7 @@ License: file LICENSE
 Author: yoni.ben-meshulam
 Maintainer: <yoni@opower.com>
 Depends:
-    roxygen2,ggplot2
+    roxygen2,ggplot2,reshape2
 Collate:
     'extract_coefficients.R'
     'plot_coefficient_coefplot.R'
@@ -16,3 +16,6 @@ Collate:
     'extract_min_1se_cv_path.R'
     'extract_min_1se_data.R'
     'plot_cv_path.R'
+    'CaseyKelp.R'
+    'extract_coefficient_path.R'
+    'plot_coefficient_path.R'
