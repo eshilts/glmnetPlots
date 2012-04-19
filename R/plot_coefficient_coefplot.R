@@ -20,7 +20,7 @@ plot_coefficient_coefplot <- function(cvg, type='both', ...) {
   colour_guide <- if(length(unique(coefs$coefficient_type)) == 1) 'none' else guide_legend()
   
   p <- ggplot(coefs, aes(x=coefficient_name, y=coefficient_value, colour=coefficient_type)) +
-    opts(labels=c(y='Coefficient', x='', colour='Type'), title=plot_title) +
+    opts(labels=c(y='', x='', colour='Type'), title=plot_title) +
     scale_colour_manual(values=brand_colors()[['Hex']], guide=colour_guide) +
     geom_hline(yintercept=0, colour='darkgrey') + 
     geom_segment(aes(y=0, yend=coefficient_value, xend=coefficient_name), linetype=2) +

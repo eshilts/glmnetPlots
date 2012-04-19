@@ -3,11 +3,11 @@ Title: Plotting Functions for glmnet
 Description: Provides plotting functionality based on ggplot2 for glmnet
     objects.
 Version: 0.1
-License: file LICENSE
-Author: yoni.ben-meshulam
-Maintainer: <yoni@opower.com>
+License: GPL-2
+Author: Erik Shilts
+Maintainer: <erik.shilts@opower.com>
 Depends:
-    roxygen2,ggplot2,reshape2
+    roxygen2,ggplot2,reshape2,directlabels
 Collate:
     'extract_coefficients.R'
     'plot_coefficient_coefplot.R'
@@ -19,3 +19,5 @@ Collate:
     'CaseyKelp.R'
     'extract_coefficient_path.R'
     'plot_coefficient_path.R'
+    'extract_logistic_reponse_data.R'
+    'plot_logistic_response.R'

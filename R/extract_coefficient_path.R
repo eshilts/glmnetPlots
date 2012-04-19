@@ -5,7 +5,7 @@
 #' @author Erik Shilts
 #' @export
 extract_coefficient_path <- function(cvg) {
-  coef_path <- as.data.frame(as.matrix(t(cvg[['glmnet.fit']][['beta']])))
+  coef_path <- as.data.frame(t(as.matrix(cvg[['glmnet.fit']][['beta']])))
   coef_path$Intercept <- cvg[['glmnet.fit']][['a0']]
   coef_path$lambda <- cvg[['glmnet.fit']][['lambda']]
   coef_path$negative_log_lambda <- -1 * log(coef_path$lambda)
