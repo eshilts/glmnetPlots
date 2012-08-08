@@ -1,4 +1,4 @@
-Package: glmnetPlots 
+Package: glmnetPlots
 Title: Plotting Functions for glmnet
 Description: Provides plotting functionality based on ggplot2 for glmnet
     objects.
@@ -20,3 +20,4 @@ Collate:
     'plot_coefficient_path.R'
     'extract_logistic_reponse_data.R'
     'plot_logistic_response.R'
+    'glmnetPlots-package.R'
