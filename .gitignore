@@ -1,6 +1,4 @@
-CaseyKelp_*
-CaseyKelp.Rcheck
-man
+\.tar\.gz
+*.Rcheck
 *~
 *.swp
-NAMESPACE

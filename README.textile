@@ -1,3 +1,3 @@
-h1. Casey Kelp
+h1. glmnetPlots
 
 Plotting functions for glmnet objects based on ggplot2.

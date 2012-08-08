@@ -1,11 +1,11 @@
-Package: CaseyKelp
+Package: glmnetPlots 
 Title: Plotting Functions for glmnet
 Description: Provides plotting functionality based on ggplot2 for glmnet
     objects.
 Version: 0.1
 License: GPL-2
 Author: Erik Shilts
-Maintainer: <erik.shilts@opower.com>
+Maintainer: <erik.shilts@gmail.com>
 Depends:
     roxygen2,ggplot2,reshape2,directlabels
 Collate:
@@ -16,7 +16,6 @@ Collate:
     'extract_min_1se_cv_path.R'
     'extract_min_1se_data.R'
     'plot_cv_path.R'
-    'CaseyKelp.R'
     'extract_coefficient_path.R'
     'plot_coefficient_path.R'
     'extract_logistic_reponse_data.R'
