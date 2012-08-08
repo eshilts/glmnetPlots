@@ -4,7 +4,7 @@
 #' @param y dependent response variable
 #' @param cvg cv.glmnet object
 #' @param \dots other graphical parameters
-#' @returns ggplot2 created grid object
+#' @return ggplot2 created grid object
 #' @author Erik Shilts
 #' @export
 plot_logistic_response <- function(x, y, cvg, ...) {

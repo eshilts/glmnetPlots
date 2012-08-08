@@ -13,6 +13,9 @@
 
   \item{\dots}{other graphical parameters}
 }
+\value{
+  ggplot2 created grid object
+}
 \description{
   Plots the logistic reponse
 }

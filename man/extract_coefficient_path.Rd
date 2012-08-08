@@ -7,6 +7,10 @@
 \arguments{
   \item{cvg}{cv.glmnet objects}
 }
+\value{
+  long data.frame of coeffients, penalties, and deviance
+  ratios
+}
 \description{
   Extract coefficients along the regularization path
 }

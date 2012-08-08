@@ -3,7 +3,7 @@
 #' @param cvg cv.glmnet object
 #' @param \dots additional plotting arguments
 #' @author Erik Shilts
-#' @returns ggplot2 grid object
+#' @return ggplot2 grid object
 #' @export
 plot_cv_path <- function(cvg, ...) {
   cv_path <- extract_cv_path(cvg)

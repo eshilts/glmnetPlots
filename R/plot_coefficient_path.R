@@ -3,7 +3,7 @@
 #' @author Erik Shilts
 #' @param cvg cv.glmnet object
 #' @param \dots argments to the lower-level plotting functions (e.g. title) 
-#' @returns ggplot2 generated grid object
+#' @return ggplot2 generated grid object
 #' @export
 plot_coefficient_path <- function(cvg, ...) {
   coef_path <- extract_coefficient_path(cvg)

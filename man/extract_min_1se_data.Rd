@@ -7,6 +7,10 @@
 \arguments{
   \item{cvg}{cv.glmnet object}
 }
+\value{
+  small data frame of information corresponding to the min
+  and 1se fits
+}
 \description{
   Extract information about the models at the values of
   lambda corresponding to the minimum (min) and within one

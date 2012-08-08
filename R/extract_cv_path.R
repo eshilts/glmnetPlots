@@ -6,7 +6,7 @@
 #' plotting function that replicates and extends plot.cv.glmnet functionality.
 #' @param cvg cv.glmnet model object
 #' @author Erik Shilts
-#' @returns data.frame of cross validation data
+#' @return data.frame of cross validation data
 #' @export
 extract_cv_path <- function(cvg) {
   dat <- as.data.frame(sapply(cvg[c('lambda', 'cvm', 'cvsd', 'cvup', 'cvlo', 'nzero')], cbind))

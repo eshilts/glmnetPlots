@@ -9,6 +9,9 @@
 
   \item{\dots}{additional plotting arguments}
 }
+\value{
+  ggplot2 grid object
+}
 \description{
   Plots the cross validation path as seen in
   plot.cv.glmnet.

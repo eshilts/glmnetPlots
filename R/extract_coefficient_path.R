@@ -1,7 +1,7 @@
 #' Extract Coefficient Path
 #' @description Extract coefficients along the regularization path
 #' @param cvg cv.glmnet objects
-#' @returns long data.frame of coeffients, penalties, and deviance ratios
+#' @return long data.frame of coeffients, penalties, and deviance ratios
 #' @author Erik Shilts
 #' @export
 extract_coefficient_path <- function(cvg) {

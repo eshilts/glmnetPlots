@@ -4,7 +4,7 @@
 #' error. This is useful for adding context to plots of the coefficients, coefficient paths,
 #' and cross validation regularization path.
 #' @param cvg cv.glmnet object
-#' @returns small data frame of information corresponding to the min and 1se fits
+#' @return small data frame of information corresponding to the min and 1se fits
 #' @author Erik Shilts
 #' @export
 extract_min_1se_data <- function(cvg) {

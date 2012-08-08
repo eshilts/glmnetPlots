@@ -7,6 +7,9 @@
 \arguments{
   \item{cvg}{cv.glmnet model object}
 }
+\value{
+  data.frame of cross validation data
+}
 \description{
   Extract data describing cross validation path. Creates a
   data frame of lambda (penalty), mean cross validation
